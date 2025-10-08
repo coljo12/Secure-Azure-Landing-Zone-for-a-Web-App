@@ -1,0 +1,27 @@
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.sublime-*
+
+# Azure credentials (never commit)
+*.publishsettings
+*.azurePubxml
+.azure/
+
+# Terraform state files (if used)
+*.tfstate
+*.tfstate.backup
+.terraform/
+
+# Logs
+*.log
